@@ -2,7 +2,7 @@ module.exports = {
     get: function(req, res){
         try {
             // throw { message: "This is a test error" };
-            return global.succes(res, {data: {message: "Wellecome to the API"}});
+            return global.succes(res, {data: {message: "Bienvenido Andresito a mi API"}});
         } catch (error) {
             return global.error(res, {error: error.message, statusCode: 400});
         }
