@@ -1,1 +1,1 @@
-MONGOUSER=user MONGOPWD=password MONGOHOST=cluster0.vjjrxw3.mongodb.net MONGOPORT= MONGODB=nameDB MONGOPROTOCOL=mongodb+srv
+MONGOUSER=ikaronauta MONGOPWD=Ikaro742698521 MONGOHOST=cluster0.vjjrxw3.mongodb.net MONGOPORT= MONGODB=test meDB MONGOPROTOCOL=mongodb+srv

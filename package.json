@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js --mode development",
-    "start": "node index.js --mode production"
+    "dev": "nodemon index.js",
+    "start": "export $(cat .enviroments | xargs) && NODE_ENV=production node index.js"
   },
   "author": "Ikaronauta",
   "license": "ISC",
